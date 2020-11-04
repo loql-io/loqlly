@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper main {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.wrapper main h1 {
+  text-align: center;
+}
+
+.wrapper main p {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+}

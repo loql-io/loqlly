@@ -1,0 +1,147 @@
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.content-wrapper p {
+    text-align: start;
+}
+
+
+.content-wrapper {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper ul {
+    list-style: none;
+
+}
+
+@media screen and (min-width: 768px) {
+    .content-wrapper ul {
+        display: flex;
+        list-style: none;
+    }
+
+}
+
+.content-wrapper ul li {
+    max-width: 400px;
+    margin: 0 20px;
+
+}
+
+.content-wrapper ul li img {
+    margin: 28px auto;
+    width: 360px;
+    height: 160px;
+}
+
+.content-wrapper ul li h2 {
+    text-align: start;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #2F2B27;
+}
+
+.content-wrapper ul li + li {
+    margin-top: 26px;
+}
+
+@media screen and (min-width: 768px) {
+    .content-wrapper ul li + li {
+        margin-top: 30px;
+    }
+}
+
+.register-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.register-list-wrapper li {
+    display: flex;
+}
+
+.register-list-wrapper li + li {
+    margin-top: 22px;
+}
+
+
+.text-wrapper {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+
+.text-wrapper h4 {
+    color: #2F2B27;
+}
+
+.text-wrapper p {
+    margin-top: 5px;
+    color: #2F2B27;
+}
+
+.text-wrapper a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.text-wrapper a:hover {
+    color: #6CBF84;
+}
+
+.register-list-wrapper h1 {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    color: #6CBF84;
+    align-self: flex-start;
+}
+
+.get-started-wrapper a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    color: #544b3f;
+    line-height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 50px;
+    margin: 38px auto;
+
+    border-radius: 30px;
+    background-color: #6cbf84;
+
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+
+.get-started-wrapper a:hover {
+    background-color: #544B3F;
+    color: #FAF6F6;
+}

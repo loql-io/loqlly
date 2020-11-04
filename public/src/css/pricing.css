@@ -1,0 +1,194 @@
+.wrapper {
+    padding: 35px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile-content {
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.tile-content-centred {
+    text-align: center;
+}
+
+.tile-main-header {
+    padding-bottom: 20px;
+}
+
+.tile-header {
+    padding-bottom: 10px;
+    
+}
+
+.tile-header-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tile-white {
+    background-color: #ffffff;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.tile-black {
+    background: #000000;
+    color: #FAF6F6;
+}
+
+.tile-black .btn-disable {
+    border: 3px solid #C4C4C4;
+}
+
+.tile-subheader {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    color: #2F2B27;
+
+    letter-spacing: -0.01em;
+    /* text-decoration-line: line-through; */
+}
+
+.tile-black .tile-subheader {
+    color: #FAF6F6;
+}
+
+.tile-subheader-red {
+    color: #F26968;
+}
+
+.copy-line-through {
+    text-decoration-line: line-through;
+}
+
+.copy-time {
+    padding: 0 5px;
+}
+
+.copy-tag {
+    background: #6CBF84;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+    color: #FAF6F6;
+    margin-left: 5px;
+}
+
+.body-small {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.body-alert {
+    color: #F26968;
+    padding-bottom: 15px;
+}
+
+.list {
+    margin: 15px 0;
+    list-style: none;
+}
+
+.list li {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: url('../assets/tick.png') no-repeat left 2px;
+}
+
+.list li:last-child {
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 0.3em 1.2em;
+    display: inline-block;
+    height: auto;
+    border-radius: 30px;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    border: 3px solid #2f2b27;
+    transition: all ease-in 0.2s;
+}
+
+.btn-disable {
+    border: 3px solid #EEEEEE;
+    color: #C4C4C4;
+    cursor: text;
+}
+
+.btn-disable:hover {
+    color: #C4C4C4;
+}
+
+.tile-last {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.tile-first {
+    padding: 20px 20px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .list {
+        margin-bottom: 25px;
+    }
+
+    .tiles-group {
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .tiles-group .tile-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0;
+    }
+
+    .tiles-group .btn {
+        align-self: flex-start;
+        margin-top: auto;
+    }
+
+    .tile-white {
+        border-bottom: 0;
+    }
+
+    .tile-white:first-child {
+        border-right: 2px solid #E5E5E5;
+    }
+
+    .tile-content-horizonal {
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        align-content: center;
+    }
+
+    .tile-content-horizonal .tile-content-item {
+        margin-right: 35px;
+    }
+
+    .tile-content-horizonal .tile-content-item.btn {
+        margin-right: 0;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people-list {
+  width: 335px;
+  margin: 40px 0 0 0;
+  list-style: none;
+}
+
+
+.people-list li {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.people-list li span {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 30px;
+  margin-left: 0;
+
+  font-weight: 800;
+  font-size: 26px;
+  color: #C0A9A8;
+}
+
+.people-list li section {
+  flex: 1;
+}

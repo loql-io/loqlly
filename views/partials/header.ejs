@@ -1,5 +1,50 @@
-<title>Node.js Getting Started on Heroku</title>
-<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+<div class="fill"></div>
+<div class="header-wrapper">
+  <nav class="web-nav">
+    <a href="index.html">
+      <img src="./src/assets/logo-dark.svg" alt="Logo" />
+    </a>
+    <ul>
+      <li>
+        <a id="nav_plans" href='plans.html'>Plans</a>
+      </li>
+      <li>
+        <a id="nav_about" href='about.html'>About</a>
+      </li>
+    </ul>
+    <a id="register" href='register.html'>Get started</a>
+  </nav>
+</div>
+
+<div class="mobile-container">
+  <div id="mobile_header_wrapper" class="mobile-header-wrapper">
+    <a id="burger" href="#" onclick="sideBarToggle()">
+      <img id="menu_icon" src="./src/assets/menu-burger.svg" alt="burger">
+    </a>
+    <a href="index.html">
+      <img src="./src/assets/logo-dark.svg" alt="Logo" />
+    </a>
+  </div>
+  <div id="side_menu" class="side-menu-wrapper">
+
+    <ul class="mobile-nav-list">
+      <li><img src="./src/assets/lightLogo.svg" alt="logo"></li>
+      <li><a id="mobile_nav_home" href='index.html'>Home</a></li>
+      <li><a id="mobile_nav_about" href='about.html'>About</a></li>
+      <li><a id="mobile_nav_plans" href='plans.html'>Plans</a></li>
+    </ul>
+
+    <div class="register-wrapper">
+      <a href='register.html'>Get started</a>
+    </div>
+
+    <section>
+      <a href='terms&conditions.html'>Terms & Conditions</a>
+      <a href='privacy.html'>Privacy</a>
+      <span>&copy; 2020 Loql</span>
+    </section>
+  </div>
+</div>
+<script>
+  getUrlPath();
+</script>

@@ -1,0 +1,82 @@
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.first-content {
+  text-align: center;
+  max-width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .first-content {
+    max-width: 1024px;
+  }
+}
+
+.first-content p {
+  margin: 25px 0 30px;
+}
+
+.first-content p a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.first-content p a:hover {
+  color: #6CBF84;
+}
+
+
+.join-form p {
+  margin: 7px 20px 18px;
+}
+
+.input-wrapper {
+  width: 335px;
+  height: 60px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2F2B27;
+  font-weight: normal;
+}
+
+.input-wrapper-message {
+  width: 335px;
+  height: 120px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2F2B27;
+  font-weight: normal;
+}
+
+.submit-wrapper {
+  width: 335px;
+  height: 50px;
+  margin-top: 50px;
+  background: #EEEEEE;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C4C4C4;
+  transition: background-color 0.3s;
+}
+
+.submit-wrapper span {
+  font-size: 24px;
+  line-height: 25px;
+  color: #C4C4C4;
+}
+
+.submit-wrapper:hover {
+  background-color: #e0e0e0;
+}
