@@ -1,3 +1,12 @@
+<!-- OneTrust Cookies Consent Notice start -->
+
+<script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
+        data-domain-script="0fa08267-d238-4e87-8f5c-efe4f6be207b-test"></script>
+<script type="text/javascript">
+  function OptanonWrapper() {
+  }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +34,6 @@
 <body>
 <% include ../partials/header.ejs %>
 
-
 <div class="wrapper">
   <div class="image">
 
@@ -39,61 +47,65 @@
   </div>
 
   <div class="demo-wrapper">
-    <h2>What is Loql?</h2>
-    <ol class="list-wrapper">
-      <li>A digital marketplace for communities to buy directly from independent shops & restaurants</li>
-      <li>A set of affordable digital tools provided to these shops & restaurants to help them compete with big digital</li>
-      <li>A not for profit platform for innovation in our communities</li>
-    </ol>
+    <h2 class="centered">What is Loql?</h2>
+    <ul class="list-wrapper list-wrapper-numbered">
+      <li><span class="numbers">1</span>A digital marketplace for communities to buy directly from independent shops & restaurants</li>
+      <li><span class="numbers">2</span>A set of affordable digital tools provided to these shops & restaurants to help them compete with big digital</li>
+      <li><span class="numbers">3</span>A not for profit platform for innovation in our communities</li>
+    </ul>
 </div>
 
-
-
-      <div class="setup-wrapper">
-
-        <h4>Collective community commerce</h4>
+  <div class="setup-wrapper">
+    <div class="image">
+      <section>
+        <h1>Collective community commerce</h1>
+        <span class="center-image"><img src="./src/assets/digital-orders@2x.png" alt='digital-orders' class="responsive"/></span>
         <p>Loql brings local businesses and the communities they serve closer together to help build a more sustainable future for everyone.</p>
-
-        <span class="center-image"><img src="./src/assets/dashboard.png" alt='Dashboard'/></span>
-
+      </section>
     </div>
+  </div>
 
   <div class="faq-wrapper">
-    <h2>About us</h2>
-
+    <h2 class="centered">About us</h2>
     <div class="wrapper-content">
-      <div class="content-copy">
-
+      <div class="content-copy centered">
         <p>We are a not for profit team of digital experts and local business people focused on making a difference to our high streets. More about us</p>
-
       </div>
-
     </div>
   </div>
 
   <div class="setup-wrapper">
+
+<div id="target">
+    <iframe src="https://cdn.forms-content.sg-form.com/a4552770-849f-11ea-8db1-52a42116330f" title="register"></iframe>
+</div>
+<!--
     <div>
-      <h2>Stay in the loop</h2>
+      <h2 class="spacing-b-3">Stay in the loop</h2>
     </div>
     <section>
+    <p>
+    We’re currently in development, so you can follow our progress on Twitter, LinkedIn, Instagram or by joining our mailing list
+    </p>
 
-          <p>
-          We’re currently in development, so you can follow our progress on Twitter, LinkedIn, Instagram or by joining our mailing list
-          </p>
-
+    <form id="form" class="contact">
+      <label>
+        <input class="input-wrapper" placeholder="Your email" type="email">
+      </label>
+      <div class="submit-wrapper">
+        <button type="submit"><span>Sign up</span></button>
+      </div>
+    </form>
+-->
     </section>
-    <div id='more'>
-      <a id='about' href='about.html'>
-        More about us
-      </a>
-    </div>
   </div>
 
 </div>
 <div class="push"></div>
-<footer id="footer" class="footer"></footer>
+
+<% include ../partials/footer.ejs %>
+
 <script src="./src/js/plugins.js"></script>
 <script src="./src/js/main.js"></script>
-<script src="./src/js/header.js"></script>
 </body>
 </html>
