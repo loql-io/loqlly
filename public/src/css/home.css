@@ -193,9 +193,8 @@
 }
 
 .setup-wrapper {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: #2f2b27;
 }
