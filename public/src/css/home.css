@@ -82,7 +82,7 @@
 }
 
 .center-image {
-  display: flex;
+  display: grid;
   justify-content: center;
   padding-top: 20px;
 }
