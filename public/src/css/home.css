@@ -42,6 +42,7 @@
 
 @media screen and (min-width: 768px) {
   .main-wrapper,
+  .setup-wrapper,
   .demo-wrapper,
   .faq-wrapper {
     display: flex;
@@ -56,6 +57,7 @@
 .setup-wrapper,
 .call-wrapper {
   padding: 40px 20px;
+  text-align: center;
 }
 
 .demo-wrapper p,
@@ -199,7 +201,7 @@
   color: #2f2b27;
 }
 
-.setup-wrapper h2 {
+.setup-wrapper h2 p {
   font-weight: 900;
   font-size: 35px;
   line-height: 37px;
@@ -221,10 +223,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .setup-wrapper section ul {
+  .setup-wrapper section  {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
   }
 
