@@ -491,9 +491,6 @@ button.collapsible.active:before {
 
 }
 
-
-
-
 .setup-wrapper-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -542,7 +539,15 @@ button.collapsible.active:before {
     text-align: center;
   }
   .image-container{
+    width: 300px;
     text-align: center;
+  }
+  .setup-wrapper img {
+    width: 300px;
+  }
+
+  .setup-wrapper-grid img {
+    width: auto;
   }
 
 }
