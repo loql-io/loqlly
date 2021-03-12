@@ -522,6 +522,10 @@ button.collapsible.active:before {
   margin-bottom: 30px;
 }
 
+.image-container{
+  width: 360px;
+}
+
 @media screen and (max-width: 768px) {
   .setup-wrapper-grid{
     display: grid;
@@ -535,6 +539,9 @@ button.collapsible.active:before {
   }
   .setup-wrapper-grid section h3,
   .setup-wrapper-grid section p {
+    text-align: center;
+  }
+  .image-container{
     text-align: center;
   }
 
