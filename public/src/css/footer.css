@@ -1,45 +1,156 @@
-.footer-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  min-height: 90px;
-  padding: 8px 0;
-  box-shadow: 0 -3px 10px rgba(192, 169, 168, 0.5);
 
-  color: #c0a9a8;
-  font-size: 16px;
+.jXxJtb {
+    min-height: 200px;
+    padding: 50px;
+    background-color: rgb(47, 43, 39);
 }
 
-.desktop-footer,
-.mobile-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.hYSQDT {
+    text-align: center;
+}
+.cAqtQg {
+    text-align: center;
 }
 
-.desktop-footer a,
-.mobile-footer a {
-  color: #c0a9a8;
-}
-
-.desktop-footer {
-  flex-direction: row;
-}
-
-.mobile-footer {
-  flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  .desktop-footer {
-    display: none;
+@media (max-width: 767px){
+  .fovpje {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 0px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-footer {
-    display: none;
+.fovpje {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 14px;
+    font-family: Nunito Sans,sans-serif;
+    font-weight: normal;
+    line-height: 19px;
+}
+
+.dLLlFd svg {
+    height: 30px;
+    width: 30px;
+}
+.dLLlFd path {
+    fill: rgb(192, 169, 168);
+}
+.MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    background-color: #e0e0e0 !important;
+}
+
+.MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 18px;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: Nunito Sans,sans-serif;
+    font-weight: 800;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.lbsFox {
+    height: 28px;
+    width: 140px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    color: rgb(47, 43, 39);
+    font-size: 14px !important;
+}
+.ceVJCa {
+    display: grid;
+    margin-top: 20px;
+    column-gap: 20px;
+    grid-template-columns: 25% auto;
+}
+.ztnih {
+    color: rgb(192, 169, 168);
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+}
+.djFaGZ {
+    color: rgb(192, 169, 168) !important;
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.djFaGZ span {
+    margin-right: 20px;
+}
+.djFaGZ span:last-child {
+    margin-right: 0px;
+}
+
+footer > div.styles__GridFooter-sd0nn4-9.ceVJCa > div:nth-child(2) > div > span:nth-child(1) > a,
+footer > div.styles__GridFooter-sd0nn4-9.ceVJCa > div:nth-child(2) > div > span:nth-child(2) > a,
+footer > div.styles__GridFooter-sd0nn4-9.ceVJCa > div:nth-child(2) > div > span:nth-child(3) > a {
+  color: #C0A9A8;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ifPJeR {
+      grid-template-columns: 25% auto 20% 20%;
   }
+}
+
+.ifPJeR {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 25% auto 15% 15%;
+}
+
+
+@media (max-width: 767px){
+  .fovpje {
+    text-align: center;
+  }
+  .ifPJeR {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .hYSQDT{
+    margin-top: 20px;
+  }
+  .ceVJCa {
+      grid-template-columns: repeat(1, 1fr);
+      margin-right: 0px;
+    }
+
+    .djFaGZ {
+        text-align: center;
+        margin-top: 20px;
+    }
+
 }

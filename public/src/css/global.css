@@ -22,7 +22,7 @@ html, body {
 }
 
 body {
-  background: #FAF6F6;
+  /*background: #FAF6F6;*/
   -webkit-font-smoothing: antialiased;
 }
 
@@ -34,20 +34,20 @@ button {
   cursor: pointer
 }
 
-h1 {
+.h-xl {
   font-weight: 900;
   font-size: 45px;
   line-height: 45px;
   letter-spacing: -0.02em;
 }
 
-h2 {
+.h-l {
   font-weight: 900;
   font-size: 35px;
   line-height: 37px;
   letter-spacing: -0.02em;
 }
-h3{
+.h-m{
   font-weight: 900;
   font-size: 30px;
   line-height: 41px;
@@ -55,7 +55,7 @@ h3{
   color: #544B3F;
 }
 
-h4{
+.h-s{
   font-weight: 800;
   font-size: 26px;
   line-height: 32px;
@@ -66,4 +66,24 @@ h4{
 p {
   font-size: 18px;
   line-height: 27px;
+}
+
+figure {
+  margin-top: 20px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 20px;
+}
+
+figcaption a{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+figcaption a:hover{
+  text-decoration: none;
 }
